@@ -1,16 +1,16 @@
 package model;
 
-public class notas {
+public class Alunos {
 
     private String nome;
     private double nota1;
     private double nota2;
     private double nota3;
 
-    public notas() {
+    public Alunos() {
     }
 
-    public notas(String nome, double nota1, double nota2, double nota3) {
+    public Alunos(String nome, double nota1, double nota2, double nota3) {
         this.nome = nome;
         this.nota1 = nota1;
         this.nota2 = nota2;
